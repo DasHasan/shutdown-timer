@@ -1,7 +1,7 @@
 {
   "name": "shutdown-timer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Descripe me",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TheEarl/shutdown-timer/issues"
   },
-  "homepage": "https://github.com/TheEarl/shutdown-timer#readme"
+  "homepage": "https://github.com/TheEarl/shutdown-timer#readme",
+  "dependencies": {
+    "electron-prebuilt": "^0.35.4"
+  }
 }
