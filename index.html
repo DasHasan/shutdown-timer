@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="mdl/material.min.css">
   <script src="mdl/material.min.js"></script>
   <link rel="stylesheet" href="font/icon.css">
+  <link rel="stylesheet" href="style.css">
   <title>Shutdown Timer</title>
 </head>
 
@@ -17,11 +18,21 @@
     </div>
 
     <div class="mdl-tabs__panel is-active" id="timer-panel">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="time">
+        <label class="mdl-textfield__label" for="time">Seconds...</label>
+        <span class="mdl-textfield__error">Please enter a valid number</span>
+      </div>
     </div>
 
     <div class="mdl-tabs__panel" id="clock-panel">
     </div>
+
+    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored set">
+      <i class="material-icons play">play_arrow</i>
+    </button>
   </div>
+  <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,17 @@
+.mdl-tabs__panel {
+  margin: 10px;
+}
+.set {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+/*
+.play {
+  transition: opacity .5s ease-in-out;
+}
+.stop {
+  transition: opacity .5s ease-in-out;
+}
+*/
